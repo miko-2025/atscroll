@@ -1,1 +1,0 @@
-cmd_Release/obj.target/reader.node := aarch64-linux-android-clang++ -o Release/obj.target/reader.node -shared -rdynamic -fPIC  -Wl,-soname=reader.node -Wl,--start-group Release/obj.target/reader/reader.o -Wl,--end-group -llog
